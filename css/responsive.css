@@ -25,7 +25,8 @@
     
     
    /*ABOUT SECTION*/
-    #about{padding-top: 40px;}
+    #about{padding-top: 80px;
+    }
  
     /*COLLUPSABLE NAVIGATION MENU*/
     .navbar-header {float: none;}
@@ -42,6 +43,7 @@
 
     /* PORTFOLIO SECTION */
     select{
+      -webkit-appearance: none;
         width: 100%;
         background-color:black !important;
         color: #ffffff;
@@ -57,15 +59,15 @@
 
     /*sales */
     .tab button { 
-        font-size: 8px;
-        padding: 2% 1%;
+        font-size: 9px;
+        padding: 2% 0;
         }
     /*icon bar */
         .icon-bar1 a {
           
-          padding: 8px;
+          padding: 12px;
           
-          font-size: 10px;
+          font-size: 15px;
         }
 }
 
@@ -76,6 +78,7 @@
     h2 {font-size: 1.9em;}
     h3{font-size: 1.5em}
     h4{font-size: 1.1em;}
+    #about{padding-top: 40px;}
     /* PORTFOLIO SECTION */
     #portfolio h5{font-size: 1.9em;}
     #portfolio h2{font-size: 1.9em;}

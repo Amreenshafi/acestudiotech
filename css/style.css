@@ -265,13 +265,13 @@ width:100%;
 background-color: inherit;
 background-color: black;
 border: 1px solid #ccc;
-width: 30%;
+width: 33%;
 height:auto;
 float: left;
 border: none;
 outline: none;
 cursor: pointer;
-padding: 2% 3%;
+padding: 2% 2%;
 transition: 0.3s;
 font-size: 17px;
 }
@@ -280,6 +280,7 @@ font-size: 17px;
 .tab button:hover {
 background-color: #434443;
 border: 1px solid #ccc;
+height:auto;
 }
 
 /* Create an active/current tablink class */
