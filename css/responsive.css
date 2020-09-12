@@ -1,33 +1,32 @@
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 1024px) {    
-    /*HREO AREA */
-    #hero{max-height: 660px;}    
+    /*portfolio */
+    select{
+        width: 100%;
+        background-color:black !important;
+        color: #ffffff;
+        padding: 8px 16px;
+        border: 1px solid transparent;
+        border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent !important;
+        cursor: pointer;
+        user-select: none;
+        font-size: 1.5em;
+      }
     
-    /* FEATURED CLIENTS SECTION*/
-    #clients img{height: 50px;}
+    /* sales*/
+    
+    
 }
+
+
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 980px) {
     
-    /*HREO AREA */
-    #hero{height: 540px;}
     
-    /*ABOUT SECTION*/
+   /*ABOUT SECTION*/
     #about{padding-top: 40px;}
-    
-    /* FEATURED CLIENTS SECTION*/
-    #clients {text-align: center;}
-    #clients img{height: 40px;}
-    #clients ul{float: none;}
-    #clients h4 {display: none;}
-    
-    /* PORTFOLIO SECTION */
-    #shotsByPlayerId li{width: 47%;}
-    #shotsByPlayerId li:first-child{width: 97%;}
-    
-    .myphoto{text-align: center;}
-
+ 
     /*COLLUPSABLE NAVIGATION MENU*/
     .navbar-header {float: none;}
     .navbar-left,.navbar-right {float: none !important;}
@@ -38,7 +37,36 @@
         padding-left: 30px;
         overflow: hidden;
     }
+    
     .collapse.in{display:block !important;}
+
+    /* PORTFOLIO SECTION */
+    select{
+        width: 100%;
+        background-color:black !important;
+        color: #ffffff;
+        padding: 8px 16px;
+        border: 1px solid transparent;
+        border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent !important;
+        cursor: pointer;
+        user-select: none;
+        font-size: 1.5em;
+      }
+    
+    .myphoto{text-align: center;}
+
+    /*sales */
+    .tab button { 
+        font-size: 8px;
+        padding: 2% 1%;
+        }
+    /*icon bar */
+        .icon-bar1 a {
+          
+          padding: 8px;
+          
+          font-size: 10px;
+        }
 }
 
 
@@ -48,36 +76,57 @@
     h2 {font-size: 1.9em;}
     h3{font-size: 1.5em}
     h4{font-size: 1.1em;}
-    
-    
+    /* PORTFOLIO SECTION */
+    #portfolio h5{font-size: 1.9em;}
+    #portfolio h2{font-size: 1.9em;}
     .myphoto{display: none;}
+    select{
+        width: 100%;
+        background-color:black !important;
+        color: #ffffff;
+        padding: 8px 16px;
+        border: 1px solid transparent;
+        border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent !important;
+        cursor: pointer;
+        user-select: none;
+        font-size: 1.5em;
+      }
 
     
-    /*Hero area*/
-    #hero{height: 400px;}    
-    .herocontent{padding-top: 30px;}
-    
-    /*About section*/
-    #about{text-align: center;}
-    
-    /*Portfolio*/
-    #shotsByPlayerId li {width: 96%;}
-    
-    /*Footer*/
-    .footerlinks li{display: none;}       
+          
 }
 
 /* Smaller Mobile Devices */
 @media only screen and (max-width : 480px) {
-    #hero{height: 320px;}    
-    #clients {display: none;}
-    .footersocial li{font-size: 1.5em}
+    /* PORTFOLIO SECTION */
+    select{
+        width: 100%;
+        background-color:black !important;
+        color: #ffffff;
+        padding: 8px 16px;
+        border: 1px solid transparent;
+        border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent !important;
+        cursor: pointer;
+        user-select: none;
+        font-size: 1.5em;
+      }
 }
 
 /* Smallest Mobile Devices */
 @media only screen and (max-width : 320px) {
-    #hero{height: 480px;}
-    .herocontent{padding-top: 100px; padding-bottom: 30px;}
+    /* PORTFOLIO SECTION */
+    select{
+        width: 100%;
+        background-color:black !important;
+        color: #ffffff;
+        padding: 8px 16px;
+        border: 1px solid transparent;
+        border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent !important;
+        cursor: pointer;
+        user-select: none;
+        font-size: 1.5em;
+      }
+   
 
 }
 
