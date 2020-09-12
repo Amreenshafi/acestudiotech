@@ -600,7 +600,7 @@ contactus
       opacity: 0.85;
       display: inline-block;
       font-size: 17px;
-      color:black !important;
+      color:white !important;
       line-height: 20px;
       text-decoration: none; /* remove underline from anchors */
     }
@@ -680,7 +680,7 @@ contactus
     }
    
     /* style the submit button */
-    input[type=submit] {
+    .submit {
       
       cursor: pointer;
       background-color: black !important;
@@ -693,7 +693,7 @@ contactus
     font-size: 20px;
     }
     
-    input[type=submit]:hover {
+    #contactus .submit:hover {
       background-color: white;
     }
     
