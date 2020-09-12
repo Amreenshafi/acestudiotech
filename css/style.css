@@ -118,12 +118,24 @@ PORTFOLIO SECTION
 #portfolio h5{
 	color:  black;
 	font-weight: 600;
-	font-size: 4.2em;
+	font-size: 3.2em;
   text-transform: uppercase;
-  margin: 60px 0 30px 0 ;
+  margin: 0 0 3% 0;
+  text-align:center;
   letter-spacing: -2px;
   line-height: 80px;
   text-shadow: 1px 1px 1px #787777;} 
+
+  #portfolio h2{
+    color:  black;
+    font-weight: 600;
+    font-size: 3.2em;
+    text-transform: uppercase;
+    margin: 5% 0 3% 0;
+    text-align:center;
+    letter-spacing: -2px;
+    line-height: 80px;
+    text-shadow: 1px 1px 1px #787777;} 
 
 
 #portfolio h4{
@@ -142,6 +154,11 @@ PORTFOLIO SECTION
 padding:0;
 margin:50px 0 0 0;
 position: static;}
+
+#portfolio .container{
+  margin-top: 0px !important;
+  
+}
 
 
 
@@ -182,11 +199,11 @@ dropbutton
 
 select{
   width: 100%;
-  background-color:black;
+  background-color:black !important;
   color: #ffffff;
   padding: 8px 16px;
   border: 1px solid transparent;
-  border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+  border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent !important;
   cursor: pointer;
   user-select: none;
   font-size: 1.5em;
@@ -220,16 +237,12 @@ option:hover:before{
 
 
 
-//*================================
+/*================================
 sleing product
 ================================*/
-#sales{
-  
-    
-    
+#sales {  
   padding-top: 0px ;
   padding-bottom: 30px ;
-
   text-align: center;
   height: auto;
 }
@@ -240,10 +253,9 @@ sleing product
 .tab {
 overflow: hidden;
 color: white;
-
 background-color: black;
-
-
+height:auto;
+width:100%;
 
 
 }
@@ -254,11 +266,12 @@ background-color: inherit;
 background-color: black;
 border: 1px solid #ccc;
 width: 30%;
+height:auto;
 float: left;
 border: none;
 outline: none;
 cursor: pointer;
-padding: 14px 16px;
+padding: 2% 3%;
 transition: 0.3s;
 font-size: 17px;
 }
@@ -352,15 +365,6 @@ margin: auto;
 width: 20% !important;
 color : black;
 }
-
-
-
-
-
-
-
-
-
 
 /* The Modal (background) */
 .modal {
@@ -596,7 +600,7 @@ contactus
       opacity: 0.85;
       display: inline-block;
       font-size: 17px;
-      color:#666;
+      color:black !important;
       line-height: 20px;
       text-decoration: none; /* remove underline from anchors */
     }
