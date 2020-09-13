@@ -411,12 +411,6 @@ cursor: pointer;
 }
 
 
-.modal img {
-max-width: 100%;
-display: block;
-margin-left: auto;
-margin-right: auto;
-}
 
 
 
@@ -427,105 +421,53 @@ margin-top:30px;
 float: left;
 }
 
-.modal .thumbnails {
-list-style: none;
-font-size: 0;
-margin-left: -2%;
-
+/* The grid: Four equal columns that floats next to each other */
+.columnimagegallery {
+  float: left;
+  width: 25%;
+  padding: 10px;
 }
 
-.modal .thumbnails li {
-display: inline-block;
-width: 23%;
-margin-left: 2%;
-text-align: center;
-vertical-align: middle;
+/* Style the images inside the grid */
+.columnimagegallery img {
+  opacity: 0.8; 
+  cursor: pointer; 
 }
 
-.modal .thumbnails li:hover .item-hugger { background: white; }
-
-.modal .thumbnails li:hover .item-hugger .title { color: #000; }
-
-.modal .thumbnails input[name="select"] { display: none; }
-
-.modal .thumbnails .item-hugger {
-position: relative;
-height: 140px;
-margin: 20px 0;
-background: white;
-transition: all 150ms ease-in-out;
+.columnimagegallery img:hover {
+  opacity: 1;
 }
 
-.modal .thumbnails label {
-position: absolute;
-top: 0;
-left: 0;
-right: 0;
-bottom: 0;
-cursor: pointer;
+/* Clear floats after the columns */
+.rowimagegallery:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
-.modal .thumbnails .title {
-padding: 20px 0 0;
-font-size: 18px;
-color: #555;
-transition: all 150ms linear;
+/* The expanding image container */
+.containerimagegallery {
+  position: relative;
+  display: none;
 }
 
-.modal .thumbnails .thumb-image {
-height: 150px;
-padding: 2px 0;
+/* Expanding image text */
+#imgtext {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  font-size: 20px;
 }
 
-.modal .thumbnails .content {
-position: absolute;
-bottom: 0;
-left: 0;
-width: 400px;
-height:400px;
-opacity: 0;
-transition: all 150ms linear;
-display: flex;
-flex-direction: column;
-justify-content: center;
-
-}
-
-.modal .thumbnails .content .title {
-font-size: 30px;
-font-weight: 400;
-display: inline-block;
-color: #555;
-
-padding: 50px 10px 0;
-text-transform: uppercase;
-}
-
-.modal .thumbnails input[name="select"]:checked + .item-hugger {
-height: 180px;
-margin: 0;
-background: white;
-}
-
-.modal .thumbnails input[name="select"]:checked ~ .content { opacity: 1; }
-
-.modal .white-box {
-background: white;
-height:300px;
-
-}
-.white-box{
-margin-top: 15%;
-
-
-
-}
-.item-wrapper img{
-width: 100%;
-margin-left:15%;
-margin-top: 5%;
-justify-content: center;
-
+/* Closable button inside the expanded image */
+.closebtnimagegallery {
+  position: absolute;
+  top: 2px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
 }
 
 
@@ -539,9 +481,18 @@ margin-left: 1%;
 padding-left: 1%;
 text-align: left;
 }
-
-.container2 input {
-width: 300px !important;
+.modal-content p {
+  width: 100% !important;
+  
+  
+  }
+  .modal-content label {
+    width: 100% !important;
+    
+    
+    }
+.modal-content input {
+width: 100% !important;
 outline: 0;
 background-color: white;
 border-width: 0 0 1px;
@@ -550,35 +501,37 @@ font-family: 'Raleway', sans-serif;
 text-align: left;
 
 }
-.container2 input:focus {
+.modal-content input:focus {
 border-color: grey
 }
-.container2 textarea {
+.modal-content textarea {
 outline: 0;
 border-width: 0 0 1px;
 border-color:black;
 background-color: white;
 text-align: left;
-width: 300px ;
+font-family: 'Raleway', sans-serif;
+width: 100% !important;
 }
-.container2 textarea:focus {
+.modal-content textarea:focus {
 border-color: grey
 }
+.modal-content button {
+  width: 100% !important;
+  
+  
+  }
 
-.container2 input {
-width: 300px !important;
+
+.icon-bar2{
+width:100%;
 
 
 }
 
-.icon-bar2{
-width:auto;
-float: left;
-margin-left:25%;
-border-radius: 50%;
-background-color: black;
-color:white;
-
+.modal-content .col-sm-4{
+  padding: 5% 0 0 0;
+ 
 }
 
 
