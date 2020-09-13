@@ -2242,56 +2242,48 @@
                      <span class="close">&times;</span>
                     <!-- The expanding image container -->
                         <div class="container">
-                            <div class="container1">
-                                <h1 style="text-align:left">LOGO FOR PRESCHOOL </h1>
-                                <ul class="thumbnails">
-                                    <li>
-                                        <input type="radio" name="select" id="image1">
-                                            <div class="item-hugger">
-                                                <div class="title"></div>
-                                                <img class="thumb-image" src="img/portfolio/sale/logo/educationLogo-01.jpg" />
-                                                <label for="image1"></label>
-                                            </div>
-                                            <div class="content">
-                                                <div class="item-wrapper"> <img src="img/portfolio/sale/logo/educationLogo-01.jpg" />                                                       
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li class="is-active">
-                                        <input type="radio" name="select" id="image2" checked>
-                                            <div class="item-hugger">
-                                                <div class="title"></div>
-                                                <img class="thumb-image" src="img/portfolio/sale/logo/educationLogo-02.jpg" />
-                                                <label for="image2"></label>
-                                            </div>
-                                            <div class="content">
-                                            <div class="item-wrapper"> <img src="img/portfolio/sale/logo/educationLogo-02.jpg" />
-                                                                
-                                        </div>
-                                    </div>
-                                    </li>
-                                    <li>
-                                        <input type="radio" name="select" id="image3">
-                                            <div class="item-hugger">
-                                                <div class="title"></div>
-                                                <img class="thumb-image" src="img/portfolio/sale/logo/educationLogo-03.jpg" />
-                                                <label for="image3"></label>
-                                            </div>
-                                            <div class="content">
-                                                <div class="item-wrapper"> <img src="img/portfolio/sale/logo/educationLogo-03.jpg" />
-                                                            
-                                            </div>
-                                        </div>
-                                    </li>
+                            <div class="col-sm-6"   >
+                                <div style="text-align:center">
+                                    <h2>Logo for preschool</h2>
                                     
-                                </ul>
-                                <div class="white-box"></div>
+                                  </div>
+                                  
+                                  <!-- The four columns -->
+                                  <div class="rowimagegallery" >
+                                    <div class="columnimagegallery"   >
+                                      <img id="defaultOpen1" src="img/portfolio/sale/logo/educationLogo-01.jpg" alt="owllogo" style="width:100%" onclick="myFunction(this);">
+                                    </div>
+                                    <div class="columnimagegallery">
+                                      <img src="img/portfolio/sale/logo/educationLogo-02.jpg" alt="owllogo" style="width:100%" onclick="myFunction(this);">
+                                    </div>
+                                    <div class="columnimagegallery">
+                                      <img src="img/portfolio/sale/logo/educationLogo-03.jpg" alt="owllogo" style="width:100%" onclick="myFunction(this);">
+                                    </div>
+                                    <div class="columnimagegallery">
+                                      <img src="img/portfolio/sale/logo/educationLogo-04.jpg" alt="owllogo" style="width:100%" onclick="myFunction(this);">
+                                    </div>
+                                  </div>
+                                  
+                                  <div class="containerimagegallery">
+                                    
+                                    <img id="expandedImg" style="width:100%">
+                                    <div id="imgtext"></div>
+                                  </div>
+                                  
+                                  <script>
+                                  function myFunction(imgs) {
+                                    var expandImg = document.getElementById("expandedImg");
+                                    var imgText = document.getElementById("imgtext");
+                                    expandImg.src = imgs.src;
+                                    imgText.innerHTML = imgs.alt;
+                                    expandImg.parentElement.style.display = "block";
+                                  }
+                                  // Get the element with id="defaultOpen" and click on it
+                                    document.getElementById("defaultOpen1").click();
+                                  </script>
                             </div>
-                            <script>
-                                
-                                            
-                            </script>
-                            <div class="container2">
+                            
+                            <div class="col-sm-4">
                                 <h1 style="text-align:left">Product Description </h1>
                                 <form name="query" method="POST" data-netlify="true" netlify netlify-honeypot="bot-field" >
                                     <p>
@@ -2314,19 +2306,19 @@
                                     </p>
                                     <p>
                                         <div data-netlify-recaptcha="true"></div>
-                                        <button type="submit">Send</button>
+                                        <button  type="submit">Send</button>
                                     </p>
                                 </form>
                                 <h4 style="text-align:left">Or you can Contact us with </h4>
-                                <div class="icon-ba2">
-                                    <a href="https://www.behance.net/amreenirsaeadf" target="_blank"><i class="fa fa-behance" style="margin: 0 3%;"></i></a>
-                                    <a href="tel:923201240763" target="_blank"><i class="fa fa-phone" style="margin: 0 3%;"></i></a>
-                                    <a href="https://dribbble.com/Amreenirsa" target="_blank" ><i class="fa fa-dribbble" style="margin: 0 3%;"></i></a>
-                                    <a href="mailto:webmaster@example.com" target="_blank" ><i class="fa fa-envelope" style="margin: 0 3%;"></i></a>
-                                    <a href="https://www.facebook.com/Acestudiotech-101521298353085/?modal=admin_todo_tour" target="_blank" ><i class="fa fa-facebook" style="margin: 0 3%;"></i></a>       
-                                    <a href="https://www.instagram.com/acestudiotech/" target="_blank" ><i class="fa fa-instagram" style="margin: 0 3%;"></i></a>
-                                    <a href="www.linkedin.com/in/amreen-irsa-64515b1b6" target="_blank" ><i class="fa fa-linkedin" style="margin: 0 3%;"></i></a>
-                                    <a href="https://wa.me/923201240763" target="_blank" ><i class="fa fa-whatsapp" style="margin: 0 3%;"></i></a>
+                                <div class="icon-bar2">
+                                    <a href="https://www.behance.net/amreenirsaeadf" target="_blank"><i class="fa fa-behance" style="margin: 0 2%;"></i></a>
+                                    <a href="tel:923201240763" target="_blank"><i class="fa fa-phone" style="margin: 0 2%;"></i></a>
+                                    <a href="https://dribbble.com/Amreenirsa" target="_blank" ><i class="fa fa-dribbble" style="margin: 0 2%;"></i></a>
+                                    <a href="mailto:webmaster@example.com" target="_blank" ><i class="fa fa-envelope" style="margin: 0 2%;"></i></a>
+                                    <a href="https://www.facebook.com/Acestudiotech-101521298353085/?modal=admin_todo_tour" target="_blank" ><i class="fa fa-facebook" style="margin: 0 2%;"></i></a>       
+                                    <a href="https://www.instagram.com/acestudiotech/" target="_blank" ><i class="fa fa-instagram" style="margin: 0 2%;"></i></a>
+                                    <a href="www.linkedin.com/in/amreen-irsa-64515b1b6" target="_blank" ><i class="fa fa-linkedin" style="margin: 0 2%;"></i></a>
+                                    <a href="https://wa.me/923201240763" target="_blank" ><i class="fa fa-whatsapp" style="margin: 0 2%;"></i></a>
                                 </div>
                             </div>                
                         </div>     
