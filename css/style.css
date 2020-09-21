@@ -82,7 +82,8 @@ navbar
      margin-bottom:10px!important;
     
  }
- .navbar ul {padding-top: 10px!important;}
+ .navbar ul {padding-top: 10px!important;
+  font-weight: 600;}
  
  span.icon-bar{
    background-color: white !important;
@@ -94,6 +95,10 @@ navbar
 ABOUT SECTION
 ================================*/
 #about{padding-top: 100px;}
+#about h2 {
+  padding-top: 2%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
 
 .myapps{margin-top: 25px;}
 .myapps li{display: inline}
@@ -112,7 +117,17 @@ PORTFOLIO SECTION
   height: auto;
 }
 
-
+#portfolio h3{
+  background: #F4F4F4;
+  padding-top: 0px ;
+  padding-bottom: 30px ;
+ text-align: center;
+  height: auto;
+  font-size:36px;
+  
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-transform: capitalize;
+}
 
 
 #portfolio h5{
@@ -124,7 +139,10 @@ PORTFOLIO SECTION
   text-align:center;
   letter-spacing: -2px;
   line-height: 80px;
-  text-shadow: 1px 1px 1px #787777;} 
+  text-shadow: 1px 1px 1px #787777;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  letter-spacing: 3px;
+} 
 
   #portfolio h2{
     color:  black;
@@ -135,7 +153,10 @@ PORTFOLIO SECTION
     text-align:center;
     letter-spacing: -2px;
     line-height: 80px;
-    text-shadow: 1px 1px 1px #787777;} 
+    text-shadow: 1px 1px 1px #787777;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 3px;
+  } 
 
 
 #portfolio h4{
@@ -246,7 +267,10 @@ sleing product
   text-align: center;
   height: auto;
 }
-
+#sales h2{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-transform: capitalize;
+}
 
 
 /* Style the tab */
@@ -487,6 +511,9 @@ border-width: 0 0 1px;
 border-color:black;
 font-family: 'Raleway', sans-serif;
 text-align: left;
+font-size: 17px;
+font-weight: 600;
+color:black !important;
 
 }
 .modal-content input:focus {
@@ -495,11 +522,13 @@ border-color: grey
 .modal-content textarea {
 outline: 0;
 border-width: 0 0 1px;
-border-color:black;
 background-color: white;
 text-align: left;
 font-family: 'Raleway', sans-serif;
 width: 100% !important;
+font-size: 17px;
+font-weight: 600;
+color:black !important;
 }
 .modal-content textarea:focus {
 border-color: grey
@@ -532,9 +561,35 @@ contactus
     width: 100%;
       
     } 
-    
+  #contactus h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+  }
     /* style inputs and link buttons */
-    input,
+    input {
+      width: 100%;
+      padding: 12px;
+      margin: 5px 0;
+      opacity: 0.85;
+      display: inline-block;
+      font-size: 17px;
+      font-weight: 600;
+      color:black !important;
+      line-height: 20px;
+      text-decoration: none; /* remove underline from anchors */
+      
+    }
+    .submit {
+      width: 100%;
+      padding: 12px;
+      margin: 5px 0;
+      opacity: 0.85;
+      display: inline-block;
+      font-size: 17px;
+      color:white !important;
+      line-height: 20px;
+      text-decoration: none; /* remove underline from anchors */
+    }
     .btn {
       width: 100%;
       padding: 12px;
@@ -556,6 +611,7 @@ contactus
     }
   textarea {
       width: 100%;
+      font-weight: 600;
       max-height: 100px !important;
       
       /* 100% fill height, minus height of details label */
