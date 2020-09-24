@@ -69,9 +69,9 @@
     portfolio
     =========================== -->
     <link rel="stylesheet" href="css/bundle.css"/> <!-- endbuild -->
-    <link rel="stylesheet" href=  "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.1/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href=  "css/2.css"/>
     <!-- endbuild -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css"/>
+    <link rel="stylesheet" href="css/1.css"/>
     <link rel="stylesheet" href="ssi-modal/styles/ssi-modal.css"/> <!-- endbuild -->
     
         
@@ -2270,17 +2270,7 @@
                                     <div id="imgtext1"></div>
                                 </div>
                                     
-                                <script>
-                                    function myFunction(imgs) {
-                                        var expandImg = document.getElementById("expandedImg1");
-                                        var imgText = document.getElementById("imgtext1");
-                                        expandImg.src = imgs.src;
-                                        imgText.innerHTML = imgs.alt;
-                                        expandImg.parentElement.style.display = "block";
-                                    }
-                                    // Get the element with id="defaultOpen" and click on it
-                                        document.getElementById("defaultOpen1").click();
-                                </script>
+                                
                             </div>
                             <div class="col-sm-4">
                                 <h1 style="text-align:left">Product Description </h1>
@@ -2361,17 +2351,7 @@
                                     <div id="imgtext"></div>
                                 </div>
                                     
-                                <script>
-                                    function myFunction1(imgs) {
-                                        var expandImg = document.getElementById("expandedImg");
-                                        var imgText = document.getElementById("imgtext");
-                                        expandImg.src = imgs.src;
-                                        imgText.innerHTML = imgs.alt;
-                                        expandImg.parentElement.style.display = "block";
-                                    }
-                                    // Get the element with id="defaultOpen" and click on it
-                                        document.getElementById("defaultOpen2").click();
-                                </script>
+                               
                             </div>
                             <div class="col-sm-4">
                                 <h1 style="text-align:left">Product Description </h1>
@@ -2451,17 +2431,7 @@
                                     <div id="imgtext2"></div>
                                 </div>
                                     
-                                <script>
-                                    function myFunction2(imgs) {
-                                        var expandImg = document.getElementById("expandedImg2");
-                                        var imgText = document.getElementById("imgtext2");
-                                        expandImg.src = imgs.src;
-                                        imgText.innerHTML = imgs.alt;
-                                        expandImg.parentElement.style.display = "block";
-                                    }
-                                    // Get the element with id="defaultOpen" and click on it
-                                        document.getElementById("defaultOpen3").click();
-                                </script>
+                                
                             </div>
                             <div class="col-sm-4">
                                 <h1 style="text-align:left">Product Description </h1>
@@ -2508,38 +2478,8 @@
             </div>
         </div>
                 
-                <script>
-                function opendesing(evt, cityName) {
-                    var i, tabcontent, tablinks;
-                    tabcontent = document.getElementsByClassName("tabcontent");
-                    for (i = 0; i < tabcontent.length; i++) {
-                    tabcontent[i].style.display = "none";
-                    }
-                    tablinks = document.getElementsByClassName("tablinks");
-                    for (i = 0; i < tablinks.length; i++) {
-                    tablinks[i].className = tablinks[i].className.replace(" active", "");
-                    }
-                    document.getElementById(cityName).style.display = "block";
-                    evt.currentTarget.className += " active";
-                }
-                // Get the element with id="defaultOpen" and click on it
-                document.getElementById("defaultOpen").click();
-                </script>
-                <script>
-                // When the user clicks anywhere outside of the modal, close it
-                  
-                    function showModal() {
-                        $('#myModal').modal('show');
-                    }
-                    function showModal1() {
-                        $('#myModal1').modal('show');
-                    }
-                    function showModal2() {
-                        $('#myModal2').modal('show');
-                    }
-
-                     
-                    </script>
+                
+               
 </div>
     
     <!-- ===========================
@@ -2625,16 +2565,17 @@
     </div>
     
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/1.js"></script>
     
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <script src="js/2.js"></script>
     
     <!--Other necessary scripts-->
     <script src="js/jquery.nicescroll.min.js"></script>
     <script src="js/jquery.jribbble-1.0.1.ugly.js"></script>
     <script src="js/drifolio.js"></script>
     <script src="js/wow.min.js"></script>
-    <script>new WOW().init();</script>    
+    <script>new WOW().init();</script>   
+    <script src="js/model.js"></script> 
   </body>
 </html>
